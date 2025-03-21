@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import LoginPage from '@/pages/LoginPage.vue'
 import IndexPage from '@/pages/IndexPage.vue'
-
+import RankingPage from '@/pages/RankingPage.vue'
 
 // Definiowanie trasy login
 const routes = [
@@ -19,6 +19,12 @@ const routes = [
     name: 'Login',
     component: LoginPage,
     meta: { title: 'Strona Logowania' } 
+  },
+  {
+    path: '/ranking',
+    name: 'Ranking',
+    component: RankingPage,
+    meta: {title: 'Ranking'}
   }
 ]
 
