@@ -11,12 +11,14 @@ const routes = [
   {
     path: '/',
     name: 'Index',
-    component: IndexPage
+    component: IndexPage,
+    meta: { title: 'Strona Główna' }
   },
   {
     path: '/login',
     name: 'Login',
-    component: LoginPage 
+    component: LoginPage,
+    meta: { title: 'Strona Logowania' } 
   }
 ]
 
